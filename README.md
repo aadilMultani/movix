@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # movix
 # movix
 # movix
+# movix
