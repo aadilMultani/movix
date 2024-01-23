@@ -20,7 +20,7 @@ function TopRated() {
 
                 <SwitchTabs data={["Movies", "TV Shows"]} onTabChange={onTabChange} />
             </ContentWrapper>
-            <Carousel data={data?.results} loading={loading} />
+            <Carousel data={data?.results} loading={loading} endpoint={endPoint} />
         </div>
     )
 }

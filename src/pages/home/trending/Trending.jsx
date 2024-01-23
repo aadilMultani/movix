@@ -4,7 +4,7 @@ import ContentWrapper from '../../../component/contentwrapper/ContentWrapper'
 import SwitchTabs from '../../../component/switchTabs/SwitchTabs'
 import useFetch from '../../../hooks/useFetch'
 
-function Trending() {
+const Trending =() => {
     const [endpoint, setEndpoint] = useState("day");
 
     const { data, loading } = useFetch(`/trending/movie/${endpoint}`);
